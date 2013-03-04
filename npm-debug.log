@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose publish [ '.' ]
+5 verbose read json /Users/lusi/SkyDrive/Projects/Web/diskspace/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/lusi/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/tmp.tgz
+14 verbose folder .
+15 info prepublish freedisk@0.1.1
+16 silly lockFile ac6834ea-4098-0-14135147025808692-tmp-tgz /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/tmp.tgz
+17 verbose lock /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/tmp.tgz /Users/lusi/.npm/ac6834ea-4098-0-14135147025808692-tmp-tgz.lock
+18 silly lockFile ac6834ea-4098-0-14135147025808692-tmp-tgz /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/tmp.tgz
+19 verbose tar unpack /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/tmp.tgz
+20 silly lockFile 14e47d4f-4098-0-14135147025808692-package /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/package
+21 verbose lock /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/package /Users/lusi/.npm/14e47d4f-4098-0-14135147025808692-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 silly gunzTarPerm extractEntry app.js
+26 silly gunzTarPerm modified mode [ 'app.js', 511, 493 ]
+27 silly gunzTarPerm extractEntry freedisk.js
+28 verbose read json /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/package/package.json
+29 silly lockFile 14e47d4f-4098-0-14135147025808692-package /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/package
+30 verbose from cache /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/package/package.json
+31 verbose tar pack [ '/Users/lusi/.npm/freedisk/0.1.1/package.tgz',
+31 verbose tar pack   '/var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/package' ]
+32 verbose tarball /Users/lusi/.npm/freedisk/0.1.1/package.tgz
+33 verbose folder /var/folders/hr/qd9blw7d2qxg40xj8cj9wb6m0000gn/T/npm-7028/1362386084098-0.14135147025808692/package
+34 silly lockFile a8c57f06-i-npm-freedisk-0-1-1-package-tgz /Users/lusi/.npm/freedisk/0.1.1/package.tgz
+35 verbose lock /Users/lusi/.npm/freedisk/0.1.1/package.tgz /Users/lusi/.npm/a8c57f06-i-npm-freedisk-0-1-1-package-tgz.lock
+36 silly lockFile a8c57f06-i-npm-freedisk-0-1-1-package-tgz /Users/lusi/.npm/freedisk/0.1.1/package.tgz
+37 silly lockFile 725d0697--lusi-npm-freedisk-0-1-1-package /Users/lusi/.npm/freedisk/0.1.1/package
+38 verbose lock /Users/lusi/.npm/freedisk/0.1.1/package /Users/lusi/.npm/725d0697--lusi-npm-freedisk-0-1-1-package.lock
+39 silly lockFile 725d0697--lusi-npm-freedisk-0-1-1-package /Users/lusi/.npm/freedisk/0.1.1/package
+40 verbose tar unpack /Users/lusi/.npm/freedisk/0.1.1/package.tgz
+41 silly lockFile 725d0697--lusi-npm-freedisk-0-1-1-package /Users/lusi/.npm/freedisk/0.1.1/package
+42 verbose lock /Users/lusi/.npm/freedisk/0.1.1/package /Users/lusi/.npm/725d0697--lusi-npm-freedisk-0-1-1-package.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry app.js
+47 silly gunzTarPerm extractEntry freedisk.js
+48 verbose read json /Users/lusi/.npm/freedisk/0.1.1/package/package.json
+49 silly lockFile 725d0697--lusi-npm-freedisk-0-1-1-package /Users/lusi/.npm/freedisk/0.1.1/package
+50 silly shasum updated bytes 1591
+51 info shasum 221f1bc76ce5429882358fc3e11663b76fac883d
+51 info shasum /Users/lusi/.npm/freedisk/0.1.1/package.tgz
+52 verbose from cache /Users/lusi/.npm/freedisk/0.1.1/package/package.json
+53 verbose chmod /Users/lusi/.npm/freedisk/0.1.1/package.tgz 644
+54 verbose chown /Users/lusi/.npm/freedisk/0.1.1/package.tgz [ 501, 20 ]
+55 silly lockFile 3a52ce78- .
+56 silly publish { author: { name: 'saturngod' },
+56 silly publish   name: 'freedisk',
+56 silly publish   description: 'Get total diskspace , free space and used space. It\'s using \'df -h\' and can only work at *nix OS.',
+56 silly publish   version: '0.1.1',
+56 silly publish   repository: { type: 'git', url: 'https://github.com/saturngod/freedisk' },
+56 silly publish   main: './freedisk',
+56 silly publish   dependencies: {},
+56 silly publish   devDependencies: {},
+56 silly publish   optionalDependencies: {},
+56 silly publish   engines: { node: '*' },
+56 silly publish   readme: 'Freedisk is using `df -h` command. So, it\'s only available for *nix system like Linux , Unix and Mac OSX ,etc.\n\n#Install\n\n    npm install freedisk\n\n#Example\n\n    var freedisk = require("freedisk");\n\n    freedisk.drivelist(function(error,drives){\n\n    \tif (error !== null) {\n    \t      console.log(error);\n        }\n        else {\n\n        \tfor (var i = 0; i < drives.length; i++) {\n        \t\tvar mydrive = drives[i];\n        \t\t\n        \t\tfreedisk.detail(mydrive,function(error,total,used,free){\n\n        \t\t\tif (error !== null) {\n        \t\t\t\tconsole.log(error);\n        \t\t\t}\n        \t\t\telse {\n        \t\t\t\t//total != used+free because it\'s using df -h\n        \t\t\t\tconsole.log("Drive : " + mydrive);\n        \t\t\t\tconsole.log("Total : " + total);\n        \t\t\t\tconsole.log("Used : " + used);\n        \t\t\t\tconsole.log("Free : " + free);\n        \t\t\t}\n\n        \t\t});//end of detail\n        \t}\n        }\n    });',
+56 silly publish   readmeFilename: 'README.md',
+56 silly publish   _id: 'freedisk@0.1.1',
+56 silly publish   dist: { shasum: '221f1bc76ce5429882358fc3e11663b76fac883d' } }
+57 verbose url raw freedisk
+58 verbose url resolving [ 'https://registry.npmjs.org/', './freedisk' ]
+59 verbose url resolved https://registry.npmjs.org/freedisk
+60 info trying registry request attempt 1 at 16:34:44
+61 http PUT https://registry.npmjs.org/freedisk
+62 http 409 https://registry.npmjs.org/freedisk
+63 verbose url raw freedisk
+64 verbose url resolving [ 'https://registry.npmjs.org/', './freedisk' ]
+65 verbose url resolved https://registry.npmjs.org/freedisk
+66 info trying registry request attempt 1 at 16:34:52
+67 http GET https://registry.npmjs.org/freedisk
+68 http 200 https://registry.npmjs.org/freedisk
+69 error publish fail Cannot publish over existing version.
+69 error publish fail Bump the 'version' field, set the --force flag, or
+69 error publish fail     npm unpublish 'freedisk@0.1.1'
+69 error publish fail and try again
+70 error System Darwin 12.2.0
+71 error command "node" "/usr/local/bin/npm" "publish"
+72 error cwd /Users/lusi/SkyDrive/Projects/Web/diskspace
+73 error node -v v0.8.16
+74 error npm -v 1.1.69
+75 error code EPUBLISHCONFLICT
+76 verbose exit [ 1, true ]
