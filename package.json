@@ -2,7 +2,7 @@
   "author": "saturngod",
   "name": "freedisk",
   "description": "Get total diskspace , free space and used space. It's using 'df -h' and can only work at *nix OS.",
-  "version": "0.1",
+  "version": "0.1.1",
   "repository": {
     "type":"git",
     "url": "https://github.com/saturngod/freedisk"
